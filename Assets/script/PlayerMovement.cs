@@ -39,7 +39,7 @@ public class PlayerMovement : MonoBehaviour
         Quaternion forw = Quaternion.LookRotation(transform.forward);
         movement = forw * movement;
         movement = movement.normalized * speed * Time.deltaTime;
-        Debug.Log(movement);
+
         playerRigidbody.MovePosition(transform.position + movement);
         if (v >= 0)
         {
