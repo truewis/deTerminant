@@ -19,7 +19,7 @@
         Light gunLight;                                 // Reference to the light component.
 		Light faceLight;								// Duh
         float effectsDisplayTime = 0.2f;                // The proportion of the timeBetweenBullets that the effects will display for.
-    [SerializeField] GameObject FPCam;
+    [SerializeField] GameObject TPCam;
 
         void Awake ()
         {
@@ -95,7 +95,7 @@
 
             // Set the shootRay so that it starts at the end of the gun and points forward from the barrel.
             shootRay.origin = transform.position;
-            shootRay.direction = FPCam.transform.forward;
+            shootRay.direction = TPCam.transform.forward;
 
             // Perform the raycast against gameobjects on the shootable layer and if it hits something...
             if(Physics.Raycast (shootRay, out shootHit, range, shootableMask))
