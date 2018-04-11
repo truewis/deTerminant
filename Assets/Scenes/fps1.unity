@@ -634,6 +634,7 @@ Prefab:
   m_ParentPrefab: {fileID: 100100000, guid: 412b92d4feeb9c548bfa98f62c4d1022, type: 2}
   m_IsPrefabParent: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &842349574
 =======
 --- !u!1 &822487124
@@ -769,6 +770,8 @@ Transform:
   m_RootOrder: 9
 >>>>>>> 4dd859f4ca2941f44c7a8b0e4b3ea9916fb093f5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of a87ff63... test3
 --- !u!1 &1076435214 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1210012954116302, guid: 997611a626b227645bf68c7b40ca8c20,
