@@ -635,6 +635,7 @@ Prefab:
   m_IsPrefabParent: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &842349574
 =======
 --- !u!1 &822487124
@@ -770,6 +771,8 @@ Transform:
   m_RootOrder: 9
 >>>>>>> 4dd859f4ca2941f44c7a8b0e4b3ea9916fb093f5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of a87ff63... test3
 =======
 >>>>>>> parent of a87ff63... test3
 --- !u!1 &1076435214 stripped
