@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.29703987, g: 0.24627283, b: 0.23225415, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -178,6 +178,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 10, y: -120, z: 0}
+<<<<<<< HEAD
 --- !u!1 &151938377
 GameObject:
   m_ObjectHideFlags: 0
@@ -315,6 +316,8 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 92b0a040f072aaa45b8fa55b8b08c2e5, type: 2}
   m_IsPrefabParent: 0
+=======
+>>>>>>> parent of 5f08c1b... init - 2
 --- !u!4 &476051732 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4661426602030196, guid: 997611a626b227645bf68c7b40ca8c20,
@@ -636,6 +639,7 @@ Prefab:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &842349574
 =======
 --- !u!1 &822487124
@@ -780,6 +784,8 @@ GameObject:
   m_PrefabParentObject: {fileID: 1210012954116302, guid: 997611a626b227645bf68c7b40ca8c20,
     type: 2}
   m_PrefabInternal: {fileID: 1923810205}
+=======
+>>>>>>> parent of 5f08c1b... init - 2
 --- !u!1 &1078327303
 GameObject:
   m_ObjectHideFlags: 0
@@ -861,10 +867,6 @@ MonoBehaviour:
   m_TurnSpeed: 10
   m_TurnSmoothing: 0
   m_PhiMax: 50
---- !u!4 &1085917580 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 400096, guid: 412b92d4feeb9c548bfa98f62c4d1022, type: 2}
-  m_PrefabInternal: {fileID: 730972568}
 --- !u!54 &1085917581
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -904,7 +906,7 @@ GameObject:
   - component: {fileID: 1416968755}
   - component: {fileID: 1416968754}
   - component: {fileID: 1416968753}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -925,7 +927,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: f8bf641f967d0204fa606bfe4fcd574e, type: 2}
+  - {fileID: 2100000, guid: 61bcea22404bda2469670dd9255037db, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1003,7 +1005,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1798171027}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.3, y: 0.2, z: -2}
+  m_LocalPosition: {x: 0, y: 0, z: -2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 476051732}
@@ -1106,10 +1108,6 @@ Prefab:
         type: 2}
       propertyPath: m_TurnSpeed
       value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4098997999997892, guid: 997611a626b227645bf68c7b40ca8c20, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 997611a626b227645bf68c7b40ca8c20, type: 2}
